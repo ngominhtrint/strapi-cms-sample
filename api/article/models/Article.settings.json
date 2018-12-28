@@ -1,0 +1,49 @@
+{
+  "connection": "default",
+  "collectionName": "articles",
+  "info": {
+    "name": "article",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "sourceName": {
+      "default": "",
+      "type": "string"
+    },
+    "author": {
+      "default": "",
+      "type": "string"
+    },
+    "title": {
+      "default": "",
+      "type": "string",
+      "maxLength": 200
+    },
+    "description": {
+      "default": "",
+      "type": "string",
+      "maxLength": 1000
+    },
+    "url": {
+      "default": "",
+      "type": "string"
+    },
+    "urlImage": {
+      "default": "",
+      "type": "string"
+    },
+    "publishedAt": {
+      "default": "",
+      "type": "date"
+    },
+    "categoryId": {
+      "default": "",
+      "type": "integer"
+    }
+  }
+}
